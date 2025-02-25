@@ -19,7 +19,7 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={toOptimizedImage('/blogCover.png')}
+          image={toOptimizedImage('/blog_cover.jpg')}
           title={`The new standard of Closing`}
           ctaLink={'read story'}
           ctaTo={'/blog/sample'}

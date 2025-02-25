@@ -30,18 +30,18 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
+        image={'/sink_banner.jpg'}
+        title={'Welcome!'}
+        subtitle={'Kitchen and Bathrooms Hardware'}
+        ctaText={'Know More'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          Kitchen and Bathrooms has the necessary accessories to bring your home to life. From{' '}
+          <span className={styles.gold}>tiles to sinks.</span>
         </p>
         <p>
           wear by <span className={styles.gold}>sunspel</span> and{' '}
@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Products'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'New Stock'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -75,9 +75,9 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/highlight.jpg'}
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/highlightmins.jpg'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
@@ -89,10 +89,10 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.jpg')} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>TILES</Link>
+          <Link to={'/shop'}>SINKS</Link>
         </div>
       </div>
 
@@ -116,7 +116,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={toOptimizedImage('/banner3.png')}
+          image={toOptimizedImage('/banner3.jpg')}
           title={'We are Sustainable'}
           subtitle={
             'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
@@ -130,8 +130,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Making dreams a reality'}
+          subtitle={'See what others are doing.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />

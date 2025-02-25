@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
+          image={'/bathroom_banner.jpg'}
           title={`Sydney \n A British brand since 1860`}
         />
 
@@ -64,7 +64,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={toOptimizedImage('/about1.png')}></img>
+          <img alt={'shirt brand'} src={toOptimizedImage('/about11.jpg')}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>

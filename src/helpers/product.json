@@ -5,7 +5,7 @@
         "vendor": "Sunspel",
         "price": 75,
         "alt": "lambswool crew neck jumper",
-        "image": "/products/pdp1.jpeg",
+        "image": "/products/tap1.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -15,10 +15,10 @@
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
         ],
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
@@ -26,28 +26,28 @@
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
+        "image": "/products/toilet1.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
+        "image": "/products/toilet2.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
         "price": 75,
         "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
+        "image": "/products/toilet3.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
+        "image": "/products/sink1.jpg",
         "tags": ["woman"],
         "meta": "+ 2 colors"
     },
@@ -55,14 +55,14 @@
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
+        "image": "/products/sink2.jpg",
         "tags": ["woman"]
     },    
     {
         "name": "Relaxed-fit graphic T-shirt",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
+        "image": "/products/sink3.jpg",
         "tags": ["woman"],
         "meta": "+ 2 colors"
     },
@@ -70,14 +70,37 @@
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
+        "image": "/products/sink4.jpg",
         "tags": ["woman"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
+        "image": "/products/sink5.jpg",
+        "tags": ["sinks"],
+        "originalPrice": 31.50
+
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 21,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/sink6.jpg",
+        "tags": ["sinks"]
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/shower1.jpg",
+        "tags": ["woman"]
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/shower2.jpg",
         "tags": ["woman"],
         "originalPrice": 31.50
 
@@ -86,30 +109,7 @@
         "name": "Relaxed-fit graphic T-shirt",
         "price": 21,
         "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
+        "image": "/products/shower4.jpg",
         "tags": ["woman"]
     }
   ]

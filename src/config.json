@@ -4,7 +4,9 @@
     { "value": "CAD", "label": "Canada (CAD $)" },
     { "value": "USD", "label": "United States (US $)" },
     { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
+    { "value": "HKD", "label": "Hong Kong (HKD $)" },
+    { "value": "KSH", "label": "Kenya (KSH)" }
+
   ],
   "languageList": [
     { "value": "english", "label": "English" },
@@ -31,7 +33,7 @@
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "Blog",
           "link": "/blog"
         },
         {
@@ -52,7 +54,7 @@
           "link": "/support#contact"
         },
         {
-          "text": "Shipping & Returns",
+          "text": "Delivery & Returns",
           "link": "/support#returns"
         },
         {
@@ -68,47 +70,47 @@
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "sinks",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "All sinks",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "metallic",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
+              "menuLabel": "ceramic",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "trousers",
+              "menuLabel": "porcelain",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "men",
+          "categoryLabel": "tiles",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "All tiles",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "mosaic",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
+              "menuLabel": "ceramic",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "trousers",
+              "menuLabel": "porcelain",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "pants",
+              "menuLabel": "stone",
               "menuLink": "/shop"
             }
           ]
@@ -117,11 +119,11 @@
           "categoryLabel": "accessories",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
+              "menuLabel": "foucets",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "bags",
+              "menuLabel": "taps",
               "menuLink": "/shop"
             }
           ]
@@ -129,7 +131,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Blog",
       "menuLink": "/blog",
       "category": null
     },

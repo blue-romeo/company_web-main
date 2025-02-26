@@ -39,8 +39,8 @@ const ProductPage = (props) => {
           <Breadcrumbs
             crumbs={[
               { link: '/', label: 'Home' },
-              { label: 'Men', link: '/shop' },
-              { label: 'Sweater', link: '/shop' },
+              { label: 'Sinks', link: '/shop' },
+              { label: 'Faucets', link: '/shop' },
               { label: `${sampleProduct.name}` },
             ]}
           />

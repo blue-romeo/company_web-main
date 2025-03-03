@@ -1,6 +1,5 @@
 .root {
-}
-
+       
 .navContainer {
     display: flex;
     align-items: center;
@@ -50,9 +49,10 @@
     flex-direction: column;
     gap: 16px;
 }
-
+    
 @media (max-width: 800px) {
     .navContainer {
         top: 90px;
     }
+}
 }

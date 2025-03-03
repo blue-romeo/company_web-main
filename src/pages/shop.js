@@ -37,14 +37,14 @@ const ShopPage = (props) => {
               crumbs={[
                 { link: '/', label: 'Home' },
                 { link: '/', label: 'Shop' },
-                { label: 'Sweaters' },
+                { label: 'Sinks' },
               ]}
             />
           </div>
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Sweaters`}
+          name={`Catalog`}
           subtitle={
             'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
           }

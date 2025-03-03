@@ -28,7 +28,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/bathroom_banner.jpg'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Sydney \n A Kenyan brand since 2016`}
         />
 
         <div className={styles.navContainer}>
@@ -49,8 +49,8 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Founded in 2016, Kitchen and Bathrooms Hardware is an innovative Kenyan brand with a
+              contemporary edge. We make timeless everyday luxury home decor.
             </p>
             <br />
             <br />

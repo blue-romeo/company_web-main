@@ -23,28 +23,28 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Classic Toilet Bowl",
         "price": 75,
-        "alt": "classic t-shirt 1",
+        "alt": "Frencia Toilet Bowl",
         "image": "/products/toilet1.jpg",
-        "tags": ["shirt", "men"]
+        "tags": ["toilet"]
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Classic Toilet Bowl",
         "price": 75,
-        "alt": "classic t-shirt 2",
+        "alt": "Frencia Toilet Bowl",
         "image": "/products/toilet2.jpg",
-        "tags": ["shirt", "men"]
+        "tags": ["toilet"]
     },
     {
-        "name": "Classic T-Shirt",
+        "name": "Classic Toilet Bowl",
         "price": 75,
-        "alt": "classic t-shirt 3",
+        "alt": "Frencia Toilet Bowl",
         "image": "/products/toilet3.jpg",
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Classy sink",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink1.jpg",

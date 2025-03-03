@@ -19,8 +19,8 @@ const Highlight = (props) => {
     <div className={styles.root}>
       <img alt={altImage} src={toOptimizedImage(image)} className={styles.highlightImage} />
       <div className={styles.contentContainer}>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3>{"Whats Hot"}</h3>
+        <p>{"Canada White Ceramic Floor Tile - 600 x 600mm"}</p>
         <Link to={link}>{textLink}</Link>
         <img
           className={styles.miniImage}

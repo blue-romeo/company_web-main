@@ -1,26 +1,26 @@
 [
     {
         "title": "How to Lay Tiles on the Floor: A Step-by-Step Guide",
-        "category": "design",
+        "category": "Tiles",
         "alt": "A step-by-step guide that walks you through preparing, laying, and finishing floor tiles for a professional and durable result.",
         "image": "/blogs/blog1.jpg",
         "link": "/blog/sample",
         "excerpt": "Learn how to lay floor tiles like a pro! This step-by-step guide covers preparation, tiling, and finishing touches for a flawless, long-lasting result."
     },
     {
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.jpg",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "title": "How to Maintain and Clean Your Tiles for Long-Lasting Beauty",
+        "category": "Tiles",
+        "alt": "Proper tile maintenance and cleaning, using the right techniques and products, ensures long-lasting beauty and durability for your floors and walls.",
+        "image": "/blogs/cleaning_blog.jpg",
+        "link": "/blog/cleaning",
+        "excerpt": "Tiles add elegance and durability to any space, but to keep them looking fresh and beautiful, regular maintenance is essential. Whether in the kitchen, bathroom, or flooring throughout your home, proper cleaning and care can extend the lifespan of your tiles while preserving their shine. Follow these tips to keep your tiles in top condition."
     },
     {
         "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.jpg",
-        "link": "/blog/sample",
+        "category": "Toilet",
+        "alt": "Choosing the right toilet involves considering factors like type, bowl shape, flush system, height, style, and budget to ensure comfort, efficiency, and seamless bathroom aesthetics.",
+        "image": "/blogs/toilet_blog.jpg",
+        "link": "/blog/right_toilet",
         "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
     },
     {
@@ -29,7 +29,7 @@
         "alt": "blog new standard of closing",
         "image": "/blogs/blog3.jpg",
         "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "excerpt": "Selecting the perfect toilet involves balancing style, comfort, and functionality by considering factors like type, flush system, bowl shape, and budget."
     },
     {
         "title": "It is a long estab the readable",

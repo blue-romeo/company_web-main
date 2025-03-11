@@ -9,6 +9,7 @@ import * as styles from './about.module.css';
 import { toOptimizedImage } from '../helpers/general';
 const AboutPage = (props) => {
   let historyRef = useRef();
+  let foundersRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
 
@@ -28,37 +29,46 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/bathroom_banner.jpg'}
-          title={`Sydney \n A Kenyan brand since 2016`}
+          title={`Kitchen & Bathrooms \n A Kenyan brand since 2014`}
         />
 
         <div className={styles.navContainer}>
           <ThemeLink onClick={() => handleScroll(historyRef)} to={'#history'}>
-            History
+            Who We Are
           </ThemeLink>
-          <ThemeLink onClick={() => handleScroll(valuesRef)} to={'#values'}>
-            Values
+          <ThemeLink onClick={() => handleScroll(foundersRef)} to={'#founders'}>
+            Our Founders
+          </ThemeLink>
+          <ThemeLink
+            onClick={() => handleScroll(valuesRef)}
+            to={'#values'}
+          >
+            Our Values
           </ThemeLink>
           <ThemeLink
             onClick={() => handleScroll(sustainabilityRef)}
-            to={'#sustainability'}
+            to={'#branches'}
           >
-            Sustainability
+            Our Branches
           </ThemeLink>
         </div>
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 2016, Kitchen and Bathrooms Hardware is an innovative Kenyan brand with a
-              contemporary edge. We make timeless everyday luxury home decor.
+            Kitchen & Bathrooms is a trusted provider of premium tiles, sinks, 
+            granite, sanitaryware, taps, and bathroom fittings. With a 
+            commitment to quality, elegance, and functionality, the company 
+            offers a wide range of products that cater to both residential and 
+            commercial spaces.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+            Founded in 2014, Kitchen & Bathrooms began as a small family business with a 
+            passion for superior craftsmanship and innovative bathroom solutions. Today, we 
+            are a trusted name in the industry, serving customers who demand style, quality, 
+            and affordability in every product.
             </p>
           </div>
         </Container>
@@ -66,55 +76,103 @@ const AboutPage = (props) => {
         <div className={styles.imageContainer}>
           <img alt={'shirt brand'} src={toOptimizedImage('/about11.jpg')}></img>
         </div>
+        <br />
+        <br />
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
-            <div ref={valuesRef}>
+            <h3>Our Founders</h3>
+            <div ref={foundersRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+              Mr. Mike okeri and Mrs. Olpha Okeri, the visionaries behind  Kitchen & Bathrooms, 
+              founded the company with a passion for high-quality interior solutions and a desire 
+              to bring world-class designs to homes and businesses. With years of experience in the 
+              industry, they recognized a gap in the market for premium yet affordable tiles, sanitaryware, 
+              and fittings. Their dedication to excellence, innovation, and customer-centric service has 
+              helped shape the company into a trusted name in the industry. Under their leadership,  
+              Kitchen & Bathrooms has grown into a brand synonymous with elegance, reliability, and 
+              superior craftsmanship.
               </p>
+              <div className={styles.imagesContainer}>
+                <div className={styles.imageContainer}>
+              <img alt={'founder'} src={toOptimizedImage('/founder1.jpg')}></img>
+              </div>
+              <div className={styles.imageContainer}>
+              <img alt={'founder'} src={toOptimizedImage('/founder2.jpg')}></img>
+              </div>
+              </div>
+            </div>
+
+            
+            
+            <h3>Values</h3>
+            <div id={'#values'} ref={valuesRef}>
+              <p>
+              To be the leading provider of high-quality, stylish, and innovative 
+              bathroom and kitchen solutions, setting new benchmarks in design, 
+              durability, and customer satisfaction.
+              <br />
+              <br />
+              
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>
+                Quality: We are committed to delivering products of the highest
+                quality, crafted with precision and attention to detail.
+                </li>
+                <li>
+                Innovation: We strive to stay ahead of the curve by introducing
+                new designs, materials, and technologies that enhance the
+                functionality and aesthetics of our products.
+                </li>
+                <li>
+                Customer Satisfaction: We put our customers first, offering
+                personalized service, expert advice, and solutions that meet
+                their unique needs.
+                </li>
+                <li>
+                Integrity and Transparency: We conduct our business with honesty,
+                integrity, and transparency, building trust with our customers,
+                partners, and employees.
+                </li>
+                <li>  Sustainability: We are committed to sustainable practices that
+                minimize our environmental impact and promote social
+                responsibility.
+                </li>
               </ol>
-              <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
+               
+              </p>
+              
             </div>
-            <h3>Sustainability</h3>
-            <div id={'#sustainability'} ref={sustainabilityRef}>
-              <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
-              </p>
-              <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
-              </p>
-              <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
-              </p>
-            </div>
+          </div>
+        </Container>
+        <Container size={'large'} spacing={'min'}>
+        <div className={styles.content}>
+        <h3>Our Branches</h3> 
+        ref={sustainabilityRef}
+            <p>
+            Kitchen & Bathrooms has multiple branches to serve customers efficiently. 
+            Visit any of our locations for expert advice and a wide selection of premium products:
+            </p>
+            
+            <br />
+            <p>
+              <h3>Headquaters</h3>
+              Location:King'orani/Lumumba Road, Mombasa
+              
+              Contact: 0782800429
+            </p>
+            <br />
+            <p>
+              <h3>Branch</h3>
+              Location:Malindi-Mtwapa Road opposite KCB Mtwapa, Mtwapa
+              Contact: 0753800429
+            </p>
+            <br />
+            <p>
+              <h3>Branch</h3>
+              Location:Old Malindi Road next to Palestina Stage, Bamburi, Mombasa
+              Contact: 0731800429
+            </p>
           </div>
         </Container>
 

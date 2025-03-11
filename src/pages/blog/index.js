@@ -20,10 +20,10 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={toOptimizedImage('/blog_cover.jpg')}
-          title={`The new standard of Closing`}
+          title={`How to Maintain and Clean Your Tiles for Long-Lasting Beauty`}
           ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
-          header={'design'}
+          ctaTo={'/blog/cleaning'}
+          header={'Tiles'}
         />
 
         <div className={styles.navContainer}>
@@ -37,25 +37,31 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Design
+            Tiles
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Sinks & Countertops
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Interview
+            Taps & Faucets
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            News
+            Sanitaryware & Bathroom Fittings
+          </ThemeLink>
+          <ThemeLink
+            onClick={() => navigate('/blog/sample')}
+            to={'/blog/sample'}
+          >
+            Bathroom Design & Renovation
           </ThemeLink>
         </div>
 

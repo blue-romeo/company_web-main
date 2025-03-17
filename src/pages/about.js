@@ -47,7 +47,7 @@ const AboutPage = (props) => {
           </ThemeLink>
           <ThemeLink
             onClick={() => handleScroll(sustainabilityRef)}
-            to={'#branches'}
+            to={'#sustainability'}
           >
             Our Branches
           </ThemeLink>
@@ -74,7 +74,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={toOptimizedImage('/about11.jpg')}></img>
+          <img alt={'shirt brand'} src={toOptimizedImage('/kbh_front.jpg')}></img>
         </div>
         <br />
         <br />
@@ -84,7 +84,7 @@ const AboutPage = (props) => {
             <h3>Our Founders</h3>
             <div ref={foundersRef}>
               <p>
-              Mr. Mike okeri and Mrs. Olpha Okeri, the visionaries behind  Kitchen & Bathrooms, 
+              Mr. Mike Okeri and Mrs. Olpha Okeri, the visionaries behind  Kitchen & Bathrooms, 
               founded the company with a passion for high-quality interior solutions and a desire 
               to bring world-class designs to homes and businesses. With years of experience in the 
               industry, they recognized a gap in the market for premium yet affordable tiles, sanitaryware, 
@@ -146,35 +146,39 @@ const AboutPage = (props) => {
           </div>
         </Container>
         <Container size={'large'} spacing={'min'}>
-        <div className={styles.content}>
-        <h3>Our Branches</h3> 
-        ref={sustainabilityRef}
-            <p>
-            Kitchen & Bathrooms has multiple branches to serve customers efficiently. 
-            Visit any of our locations for expert advice and a wide selection of premium products:
-            </p>
-            
-            <br />
-            <p>
-              <h3>Headquaters</h3>
-              Location:King'orani/Lumumba Road, Mombasa
-              
-              Contact: 0782800429
-            </p>
-            <br />
-            <p>
-              <h3>Branch</h3>
-              Location:Malindi-Mtwapa Road opposite KCB Mtwapa, Mtwapa
-              Contact: 0753800429
-            </p>
-            <br />
-            <p>
-              <h3>Branch</h3>
-              Location:Old Malindi Road next to Palestina Stage, Bamburi, Mombasa
-              Contact: 0731800429
-            </p>
-          </div>
-        </Container>
+  <div className={styles.content} ref={sustainabilityRef}>
+    <h3>Our Branches</h3>
+    <p>
+      Kitchen & Bathrooms has multiple branches to serve customers efficiently. 
+      Visit any of our locations for expert advice and a wide selection of premium products:
+    </p>
+
+    <div>
+      <h3>Headquarters</h3>
+      <p>
+        <strong>Location:</strong> King'orani/Lumumba Road, Mombasa<br />
+        <strong>Contact:</strong> 0782800429
+      </p>
+    </div>
+
+    <div>
+      <h3>Branch</h3>
+      <p>
+        <strong>Location:</strong> Malindi-Mtwapa Road opposite KCB Mtwapa, Mtwapa<br />
+        <strong>Contact:</strong> 0753800429
+      </p>
+    </div>
+
+    <div>
+      <h3>Branch</h3>
+      <p>
+        <strong>Location:</strong> Old Malindi Road next to Palestina Stage, Bamburi, Mombasa<br />
+        <strong>Contact:</strong> 0731800429
+      </p>
+    </div>
+  </div>
+</Container>
+
 
         <div className={styles.imageContainer}>
           <img alt={'shirt backwards'} src={toOptimizedImage('/about3.png')}></img>

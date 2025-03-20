@@ -84,7 +84,7 @@ const AboutPage = (props) => {
             <h3>Our Founders</h3>
             <div ref={foundersRef}>
               <p>
-              Mr. Mike Okeri and Mrs. Olpha Okeri, the visionaries behind  Kitchen & Bathrooms, 
+              Mr. Mike Okeri and Mrs. Olpha Morema, the visionaries behind  Kitchen & Bathrooms, 
               founded the company with a passion for high-quality interior solutions and a desire 
               to bring world-class designs to homes and businesses. With years of experience in the 
               industry, they recognized a gap in the market for premium yet affordable tiles, sanitaryware, 

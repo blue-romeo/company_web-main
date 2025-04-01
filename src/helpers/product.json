@@ -2,10 +2,10 @@
     {
         "productCode": "MJUM8066-GYDZ",
         "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
+        "vendor": "Frencia",
         "price": 75,
         "alt": "lambswool crew neck jumper",
-        "image": "/products/tap1.jpg",
+        "image": "/products/pink4.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -15,6 +15,30 @@
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
+            {"image": "/products/pink4.jpg", "alt": "pdp description 1"},
+            {"image": "/products/pink5.jpg", "alt": "pdp description 2"},
+            {"image": "/products/pink6.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/pink4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "Classic Toilet Bowl",
+        "vendor": "Frencia",
+        "price": 75,
+        "alt": "Frencia Toilet Bowl",
+        "image": "/products/toilet1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["toilet"],
+        "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
             {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
@@ -23,93 +47,283 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Classic Toilet Bowl",
-        "price": 75,
-        "alt": "Frencia Toilet Bowl",
-        "image": "/products/toilet1.jpg",
-        "tags": ["toilet"]
-    },
-    {
-        "name": "Classic Toilet Bowl",
+        "vendor": "Frencia",
         "price": 75,
         "alt": "Frencia Toilet Bowl",
         "image": "/products/toilet2.jpg",
-        "tags": ["toilet"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["toilet"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Classic Toilet Bowl",
+        "vendor": "Frencia",
         "price": 75,
         "alt": "Frencia Toilet Bowl",
         "image": "/products/toilet3.jpg",
-        "tags": ["shirt", "men"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["shirt", "men"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Classy sink",
+        "vendor": "Frencia",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
         "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "meta": "+ 2 colors",
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink2.jpg",
-        "tags": ["woman"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["woman"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },    
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink3.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
         "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "meta": "+ 2 colors",
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink4.jpg",
-        "tags": ["woman"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["woman"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink5.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
         "tags": ["sinks"],
-        "originalPrice": 31.50
+        "originalPrice": 31.50,
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
 
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 21,
         "alt": "relaxed t shirt woman",
         "image": "/products/sink6.jpg",
-        "tags": ["sinks"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["sinks"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/shower1.jpg",
-        "tags": ["woman"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["woman"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/shower2.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
         "tags": ["woman"],
-        "originalPrice": 31.50
+        "originalPrice": 31.50,
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
 
     },
     {
+        "productCode": "MJUM8066-GYDZ",
         "name": "Relaxed-fit graphic T-shirt",
+        "vendor": "Frencia",
         "price": 21,
         "alt": "relaxed t shirt woman",
         "image": "/products/shower4.jpg",
-        "tags": ["woman"]
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"},
+            {"color": "#FF0000", "title": "Red"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["woman"],
+        "gallery": [
+            {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
+            {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
+            {"image": "/products/tap3.jpg.", "alt": "pdp description 3"},
+            {"image": "/products/tap4.jpg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    
     }
   ]

@@ -55,8 +55,7 @@ const ProductPage = () => {
           <Breadcrumbs
             crumbs={[
               { link: '/', label: 'Home' },
-              { link: '/shop', label: 'Sinks' },
-              { link: '/shop', label: 'Faucets' },
+              { link: '/shop', label: 'Catalogue' },
               { label: `${product.name}` },
             ]}
           />

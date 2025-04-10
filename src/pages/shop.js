@@ -16,7 +16,7 @@ import Config from '../config.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(6, 'woman');
+  const data = generateMockProductData(10, 'toilet');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
@@ -46,7 +46,7 @@ const ShopPage = (props) => {
           maxWidth={'650px'}
           name={`Catalog`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Immerse yourself in our curated collection of exquisite bathroom fittings — from sculpted basins and sleek sinks to sophisticated toilets and refined accessories. Each piece is thoughtfully crafted to bring harmony, luxury, and enduring beauty to your most personal spaces.'
           }
         />
         <Container size={'large'} spacing={'min'}>
@@ -70,7 +70,7 @@ const ShopPage = (props) => {
             </div>
           </div>
           <CardController
-            closeFilter={() => setShowFilter(false)}
+            closeFilter={() => setShowFilter(true)}
             visible={showFilter}
             filters={Config.filters}
           />

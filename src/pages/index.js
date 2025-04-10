@@ -33,20 +33,18 @@ const IndexPage = () => {
         image={'/sink_banner3.jpg'}
         title={'Welcome!'}
         subtitle={'Kitchen and Bathrooms Hardware'}
-        ctaText={'Know More'}
+        ctaText={'View Catalogue'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          Kitchen and Bathrooms has the necessary accessories to bring your home to life. From{' '}
-          <span className={styles.gold}>tiles to sinks.</span>
+          Kitchen and Bathrooms has the necessary accessories to bring your home to life. From
+          sinks to tiles, to faucets and basins. Everything you need to accesssorize and style
+          your home.
         </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+        
       </div>
 
       {/* Collection Container */}
@@ -116,10 +114,10 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={toOptimizedImage('/banner3.jpg')}
+          image={toOptimizedImage('/showroom6.jpg')}
           title={'We are Sustainable'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'From caring for our land to supporting our people, discover the steps we`re taking to do more for the world around us.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -134,10 +132,10 @@ const IndexPage = () => {
           subtitle={'See what others are doing.'}
         />
         <div className={styles.socialContentGrid}>
-          <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
-          <img src={toOptimizedImage(`/social/socialMedia2.png`)} alt={'social media 2'} />
-          <img src={toOptimizedImage(`/social/socialMedia3.png`)} alt={'social media 3'} />
-          <img src={toOptimizedImage(`/social/socialMedia4.png`)} alt={'social media 4'} />
+          <img src={toOptimizedImage(`/social/socials1.jpg`)} alt={'social media 1'} />
+          <img src={toOptimizedImage(`/social/socials2.jpg`)} alt={'social media 2'} />
+          <img src={toOptimizedImage(`/social/socials3.jpg`)} alt={'social media 3'} />
+          <img src={toOptimizedImage(`/social/socials4.jpg`)} alt={'social media 4'} />
         </div>
       </div>
       <AttributeGrid />

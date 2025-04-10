@@ -16,7 +16,7 @@ import Config from '../config.json';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(10, 'toilet');
+  const data = generateMockProductData(10, 'all');
 
   useEffect(() => {
     window.addEventListener('keydown', escapeHandler);

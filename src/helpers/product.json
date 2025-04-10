@@ -26,11 +26,11 @@
     {
         "id": 2,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic Toilet Bowl",
+        "name": "Glossy Royal Green Basin",
         "vendor": "Frencia",
         "price": 75,
         "alt": "Frencia Toilet Bowl",
-        "image": "/products/toilet1.jpg",
+        "image": "/products/basin1.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -39,7 +39,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["toilet"],
+        "tags": ["toilet","all","basin"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -51,11 +51,11 @@
     {
         "id": 3,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic Toilet Bowl",
+        "name": "Black and White themed Cabinet",
         "vendor": "Frencia",
         "price": 75,
         "alt": "Frencia Toilet Bowl",
-        "image": "/products/toilet2.jpg",
+        "image": "/products/cabinet1.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -64,7 +64,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["toilet"],
+        "tags": ["all","cabinet"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -77,11 +77,11 @@
     {
         "id": 4,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic Toilet Bowl",
+        "name": "White and Gold themed Cabinet",
         "vendor": "Frencia",
         "price": 75,
         "alt": "Frencia Toilet Bowl",
-        "image": "/products/toilet3.jpg",
+        "image": "/products/cabinet2.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -90,7 +90,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["shirt", "men"],
+        "tags": ["all","basin"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -103,11 +103,11 @@
     {
         "id": 5,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classy sink",
+        "name": "Grey and Black themed Cabinet with a flat top",
         "vendor": "Frencia",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink1.jpg",
+        "image": "/products/cabinet3.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -116,7 +116,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["cabinet","all"],
         "meta": "+ 2 colors",
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
@@ -130,11 +130,11 @@
     {
         "id": 6,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "White and Gold themed medium-sized Cabinet",
         "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink2.jpg",
+        "image": "/products/cabinet4.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -143,7 +143,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["cabinet","all"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -156,11 +156,11 @@
     {
         "id": 7,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Black and White themed small Cabinet with a found mirror",
         "vendor": "Frencia",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink3.jpg",
+        "image": "/products/cabinet5.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -169,7 +169,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["cabinet","all"],
         "meta": "+ 2 colors",
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
@@ -183,11 +183,11 @@
     {
         "id": 8,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Matching grey and gold toilet and handwash basin",
         "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink4.jpg",
+        "image": "/products/toilet-basin1.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -196,7 +196,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["sinks","all","toilet","basin"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -209,11 +209,11 @@
     {
         "id": 9,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Matching white and gold toilet and handwash basin",
         "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink5.jpg",
+        "image": "/products/toilet-basin2.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -222,7 +222,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["sinks"],
+        "tags": ["sinks","all","toilet","basin"],
         "originalPrice": 31.50,
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
@@ -237,11 +237,11 @@
     {
         "id": 10,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Plain white toilet",
         "vendor": "Frencia",
         "price": 21,
         "alt": "relaxed t shirt woman",
-        "image": "/products/sink6.jpg",
+        "image": "/products/toilet1.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -250,7 +250,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["sinks"],
+        "tags": ["all","toilet"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},

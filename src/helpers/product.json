@@ -263,11 +263,12 @@
     {
         "id": 11,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "All Black Decorative Basin",
         "vendor": "Frencia",
-        "price": 15.90,
+        "price": 5000,
+        "originalPrice": 6050,
         "alt": "relaxed t shirt woman",
-        "image": "/products/shower1.jpg",
+        "image": "/products/all_black_decorative_basin.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -276,7 +277,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["basin","all"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
@@ -289,11 +290,11 @@
     {
         "id": 12,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "All White Decorative Basin",
         "vendor": "Frencia",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
-        "image": "/products/shower2.jpg",
+        "image": "/products/all_white_decorative_basin.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -302,7 +303,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["basin","all"],
         "originalPrice": 31.50,
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
@@ -316,11 +317,11 @@
     {
         "id": 13,
         "productCode": "MJUM8066-GYDZ",
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Triple Metallic Bowl Sink",
         "vendor": "Frencia",
         "price": 21,
         "alt": "relaxed t shirt woman",
-        "image": "/products/shower4.jpg",
+        "image": "/products/triple_bowl_sink.jpg",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"},
             {"color": "#4D34AE", "title": "Pale Purple"},
@@ -329,7 +330,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["woman"],
+        "tags": ["basin","all","sink"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},

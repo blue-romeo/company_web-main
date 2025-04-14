@@ -20,93 +20,80 @@ const FaqPage = (props) => {
           <div className={styles.section}>
             <span>Your Orders</span>
             <div className={styles.subSection}>
-              <h3>Deliveries</h3>
+              <h3>Dou you deliver country wide?</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+                We deliver orders within Mombasa,Kilifi and Kwale counties. Charges depend on the quantity and location of the order. For orders outside these areas, we can arrange for a third-party courier service.
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com or call us
-                on +44 (0)115 111 1111.
+                Once your order is dispatched, you will receive an SMS or email with update on tracking information. You can also call our customer service line to check on your delivery status.
               </p>
             </div>
+            
             <div className={styles.subSection}>
-              <h3>Returns & Exchanges</h3>
+              <h3>Do you offer installation services?</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
-              </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+                No, we do not offer installation services. However, we can recommend trusted contractors and installers in your area. Please contact us for more information.
               </p>
             </div>
           </div>
 
           <div className={styles.section}>
-            <span>Payment</span>
+            <span>Payment & Pricing</span>
             <div className={styles.subSection}>
-              <h3>Shipping Rates</h3>
+              <h3>What payment methods do you accept?</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
-              </p>
-              <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
-              </p>
-              <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com call us on
-                +44 (0)115 111 1111.
+                We accept M-Pesa, bank transfers through KCB and Absa, and cash on delivery. For large commercial orders, payment plans can be arranged.
               </p>
             </div>
             <div className={styles.subSection}>
-              <h3>Currency</h3>
+              <h3>Are your prices VAT inclusive?</h3>
               <p>
-                Our website automatically selects the currency that matches your
-                delivery location. You can change this manually in the top left
-                hand corner of the page.
-              </p>
-              <p>
-                For deliveries to the UK, we will bill you in Pounds Sterling
-                (£), to the European Union in Euros (€), to the US in Dollars
-                ($), and to the Rest of World in Pounds Sterling (£).
-              </p>
-              <p>
-                Standard rate VAT is included in all orders to the UK and
-                Europe. Orders to the Rest of the World do not include VAT.
-                Where applicable, you will be responsible for any local country
-                import duty.
+                Yes, all our prices include 16% VAT. We provide ETR receipts after the completion of every sale.
               </p>
             </div>
             <div className={styles.subSection}>
-              <h3>Suspect Fraud?</h3>
+              <h3>Do you offer discounts on bulk purchases?</h3>
               <p>
-                Given our high levels of security, it’s very unlikely fraudulent
-                use of your card will take place on our website. But if a
-                fraudulent transaction does take place, first contact your
-                credit or debit card company so they can protect your card and
-                reimburse you. Then let us know at customerservice@example.com
-                and we will work with your card company to minimise any further
-                inconvenience to you.
+                Absolutely! If you are purchasing tiles or accessories in large quantities (for a construction project or resale), please contact us directly for a custom quote and bulk pricing.
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.section}>
+            <span>Returns & Warranties</span>
+            <div className={styles.subSection}>
+              <h3>What is your return policy?</h3>
+              <p>
+                You may return undamaged items within 14 days of delivery. Items must be in original packaging and in saleable condition. Orders on used accessories or cut tiles are non-refundable.
+              </p>
+              <p>
+                Please keep your receipt to claim return support.
+              </p>
+              <p>
+                To start a return, call +254 782800429.
+              </p>
+            </div>
+            <div className={styles.subSection}>
+              <h3>Do your products have a warranty?</h3>
+              <p>
+                No warranty is provided for our products. However, we guarantee the quality of our products and will replace any defective items within 30 days of purchase.
+              </p>
+              
+            </div>
+          </div>
+
+          <div className={styles.section}>
+            <span>Products & Availability</span>
+            <div className={styles.subSection}>
+              <h3>Do you have showrooms?</h3>
+              <p>
+                Yes, we have showrooms in all our branches namely: Mombasa, Bamburi and Mtwapa. You're welcome to visit and see our full range of tiles, toilets, sinks, and accessories. Check our “About Us” page for directions and hours.
+              </p>
+            </div>
+            <div className={styles.subSection}>
+              <h3>Are all items in stock?</h3>
+              <p>
+                Most items listed on our website are in stock. However, high-demand products or imported items may have limited availability. If an item is out of stock, we'll notify you immediately with the next available date or suggest alternatives.
               </p>
             </div>
           </div>

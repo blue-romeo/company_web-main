@@ -70,7 +70,7 @@ const FaqPage = (props) => {
                 Please keep your receipt to claim return support.
               </p>
               <p>
-                To start a return, call +254 782800429.
+                To start a return process, call +254 782800429.
               </p>
             </div>
             <div className={styles.subSection}>

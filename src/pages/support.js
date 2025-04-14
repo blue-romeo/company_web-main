@@ -6,15 +6,15 @@ import Banner from '../components/Banner';
 import Contact from '../components/Contact';
 import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
-import Policy from '../components/Policy';
+import Policy from '../components/Policy'; // You’ll update this component to handle section-specific content
 import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
+    { title: 'Shipping & Delivery', key: 'shipping' },
+    { title: 'Returns & Exchanges', key: 'returns' },
     { title: 'Payments & Security', key: 'payments' },
-    { title: 'Terms & Conditions', key: 'terms' },
+    { title: 'Warranty & Installation', key: 'warranty' },
     { title: 'Contact Us', key: 'contact' },
     { title: 'Privacy Policy', key: 'policy' },
   ];
@@ -22,31 +22,18 @@ const SupportPage = (props) => {
   const [current, setCurrent] = useState(subpages[4]);
 
   const renderElement = (key) => {
-    let tempElement = <React.Fragment />;
-
     switch (key) {
       case 'contact':
-        tempElement = <Contact />;
-        break;
+        return <Contact />;
       case 'policy':
-        tempElement = <Policy />;
-        break;
       case 'shipping':
-        tempElement = <Policy />;
-        break;
       case 'returns':
-        tempElement = <Policy />;
-        break;
       case 'payments':
-        tempElement = <Policy />;
-        break;
-      case 'terms':
-        tempElement = <Policy />;
-        break;
+      case 'warranty':
+        return <Policy section={key} />; // Pass key to customize Policy content
       default:
-        break;
+        return <React.Fragment />;
     }
-    return tempElement;
   };
 
   useEffect(() => {
@@ -54,16 +41,14 @@ const SupportPage = (props) => {
   }, []);
 
   useEffect(() => {
-    if (props.location.hash !== '' && props.location.hash !== undefined) {
+    if (props.location.hash) {
       const hash = props.location.hash.substring(1);
-      const tempCurrent = subpages.filter((detail) => detail.key === hash)[0];
-      if (tempCurrent.key !== current.key) {
+      const tempCurrent = subpages.find((detail) => detail.key === hash);
+      if (tempCurrent && tempCurrent.key !== current.key) {
         setCurrent(tempCurrent);
-        window.scrollTo(0, 475);
+        window.scrollTo({ top: 475, behavior: 'smooth' });
       }
     }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.location]);
 
   return (
@@ -72,42 +57,36 @@ const SupportPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={current.title}
-          bgImage={'/support.png'}
+          bgImage={'/support-tiles.png'}
           color={'var(--standard-white)'}
           height={'350px'}
         />
 
         <div className={styles.navContainer}>
-          {subpages.map((details, index) => {
-            return (
-              <ThemeLink
-                onClick={(e) => {
-                  navigate(`/support#${details.key}`);
-                }}
-                key={details.key}
-                isActive={current.key === details.key}
-                to={`/support#${details.key}`}
-              >
-                {details.title}
-              </ThemeLink>
-            );
-          })}
+          {subpages.map((details) => (
+            <ThemeLink
+              key={details.key}
+              onClick={() => navigate(`/support#${details.key}`)}
+              isActive={current.key === details.key}
+              to={`/support#${details.key}`}
+            >
+              {details.title}
+            </ThemeLink>
+          ))}
         </div>
 
         <div className={styles.pageContainer}>
           <Container size={'large'} spacing={'min'}>
-            {subpages.map((details) => {
-              return (
-                <div
-                  key={details.key}
-                  className={`${styles.content} ${
-                    current.key === details.key ? styles.show : styles.hide
-                  }`}
-                >
-                  {renderElement(details.key)}
-                </div>
-              );
-            })}
+            {subpages.map((details) => (
+              <div
+                key={details.key}
+                className={`${styles.content} ${
+                  current.key === details.key ? styles.show : styles.hide
+                }`}
+              >
+                {renderElement(details.key)}
+              </div>
+            ))}
           </Container>
         </div>
       </div>

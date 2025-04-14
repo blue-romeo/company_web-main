@@ -31,8 +31,8 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/sink_banner3.jpg'}
-        title={'Welcome!'}
-        subtitle={'Kitchen and Bathrooms Hardware'}
+        title={'Kitchens & Bathrooms'}
+        subtitle={'Welcome to our world of quality and style'}
         ctaText={'View Catalogue'}
         ctaAction={goToShop}
       />
@@ -40,8 +40,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          Kitchen and Bathrooms has the necessary accessories to bring your home to life. From
-          sinks to tiles, to faucets and basins. Everything you need to accesssorize and style
+          From sinks to tiles, to faucets and basins. Everything you need to accesssorize and style
           your home.
         </p>
         

@@ -15,7 +15,7 @@ const BathroomUpgrade = (props) => {
             <Blog
               category={'home improvement'}
               title={'5 Affordable Ways to Upgrade Your Bathroom'}
-              image={'/bathroom_upgrade.jpg'}
+              image={'/blogs/home_improvement2.jpg'}
               alt={'modern upgraded bathroom'}
             >
               <div className={styles.content}>
@@ -82,7 +82,7 @@ const BathroomUpgrade = (props) => {
               <div className={styles.content}>
                 <h2 className={styles.blogSubHeader}>Final Thoughts</h2>
                 <p className={styles.blogParagraph}>
-                A bathroom upgrade doesn’t have to be expensive or time-consuming.
+                A bathroom upgrade doesn't have to be expensive or time-consuming.
                 These five simple changes prove that small improvements can make a big impact.
                 Whether you're aiming for comfort, style, or function, these affordable ideas are a great place to start.
                 Happy upgrading!

@@ -15,7 +15,7 @@ const ShowerheadGuide = (props) => {
             <Blog
               category={'home improvement'}
               title={'How to Choose the Right Showerhead for a Relaxing Bath Experience'}
-              image={'/showerhead_selection.jpg'}
+              image={'/blogs/shower_head2.jpg'}
               alt={'variety of modern showerheads'}
             >
               <div className={styles.content}>
@@ -52,9 +52,9 @@ const ShowerheadGuide = (props) => {
               <div className={styles.content}>
                 <h2 className={styles.blogSubHeader}>3. Check Water Pressure Compatibility</h2>
                 <p className={styles.blogParagraph}>
-                Your home’s water pressure plays a key role in choosing the right showerhead.
+                Your home's water pressure plays a key role in choosing the right showerhead.
                 High-pressure heads can enhance weak water flow, while rain-style heads work best in homes with strong, consistent pressure.
-                Make sure to check the manufacturer’s guidelines to match your plumbing setup.
+                Make sure to check the manufacturer's guidelines to match your plumbing setup.
                 </p>
               </div>
 
@@ -78,7 +78,7 @@ const ShowerheadGuide = (props) => {
 
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/modern_showerhead.jpg')} alt={'stylish modern showerhead'} />
+                  <img src={toOptimizedImage('/blogs/shower_head1.jpg')} alt={'stylish modern showerhead'} />
                 </div>
               </div>
 

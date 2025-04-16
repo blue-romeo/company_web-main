@@ -15,7 +15,7 @@ const TileComparisonPage = (props) => {
             <Blog
               category={'tiles'}
               title={'Porcelain vs. Ceramic Tiles: Which One is Best for You?'}
-              image={'/porcelain_vs_ceramic1.jpg'}
+              image={'/blogs/porcelain_vs_ceramic3.jpg'}
               alt={'Porcelain vs Ceramic Tiles'}
             >
               <div className={styles.content}>
@@ -79,7 +79,7 @@ const TileComparisonPage = (props) => {
 
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/porcelain_ceramic_comparison2.jpg')} alt={'Porcelain vs Ceramic comparison'} />
+                  <img src={toOptimizedImage('/blogs/porcelain_vs_ceramic1.jpg')} alt={'Porcelain vs Ceramic comparison'} />
                 </div>
               </div>
 

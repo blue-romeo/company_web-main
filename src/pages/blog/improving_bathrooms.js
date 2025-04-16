@@ -75,7 +75,7 @@ const BathroomUpgrade = (props) => {
 
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/bathroom_accessories.jpg')} alt={'bathroom accessories upgrade'} />
+                  <img src={toOptimizedImage('/blog/home_improvement3.jpg')} alt={'bathroom accessories upgrade'} />
                 </div>
               </div>
 

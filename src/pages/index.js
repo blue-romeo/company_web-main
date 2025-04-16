@@ -18,7 +18,7 @@ import { Link, navigate } from 'gatsby';
 import { toOptimizedImage } from '../helpers/general';
 
 const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
+  const newArrivals = generateMockProductData(3, 'new');
   const blogData = generateMockBlogData(3);
 
   const goToShop = () => {
@@ -78,25 +78,18 @@ const IndexPage = () => {
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
+            textLink={'view Here'}
             link={'/shop'}
           />
         </Container>
       </div>
 
-      {/* Promotion */}
-      <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.jpg')} title={`-50% off \n All Essentials`} />
-        <div className={styles.linkContainers}>
-          <Link to={'/shop'}>TILES</Link>
-          <Link to={'/shop'}>SINKS</Link>
-        </div>
-      </div>
+     
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'About Kitchen and Bathrooms'}
+        title={'About Kitchens and Bathrooms'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }

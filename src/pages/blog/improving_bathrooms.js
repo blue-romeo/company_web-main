@@ -42,7 +42,7 @@ const BathroomUpgrade = (props) => {
                 Lighting sets the tone for your bathroom.
                 Swap out old, harsh fixtures for modern designs with warm LED bulbs.
                 The right lighting can make the space feel larger, cozier, and more inviting.
-                You’ll be surprised how much this simple switch enhances the overall mood.
+                You'll be surprised how much this simple switch enhances the overall mood.
                 </p>
               </div>
 
@@ -69,13 +69,13 @@ const BathroomUpgrade = (props) => {
                 <p className={styles.blogParagraph}>
                 Coordinating your shower curtain, bath mat, soap dispensers, and towels creates a polished, cohesive look.
                 Swap mismatched accessories for a well-thought-out color scheme or pattern to instantly refresh your space.
-                It’s affordable, fun, and makes a big visual difference.
+                It's affordable, fun, and makes a big visual difference.
                 </p>
               </div>
 
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/blogs/home_improvement3.jpg')} alt={'bathroom accessories upgrade'} />
+                  <img src={toOptimizedImage('/blogs/home_improvements3.jpg')} alt={'bathroom accessories upgrade'} />
                 </div>
               </div>
 

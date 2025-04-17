@@ -157,14 +157,7 @@
         { "name": "60x60", "value": false },
         { "name": "60x120", "value": false }
       ]
-    },
-    {
-      "category": "gender",
-      "items": [
-        { "name": "Male", "value": false },
-        { "name": "Female", "value": false },
-        { "name": "Unisex", "value": false }
-      ]
     }
+    
   ]
 }

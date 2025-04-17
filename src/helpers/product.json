@@ -303,7 +303,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["basin","all"],
+        "tags": ["basin","all","new"],
         "originalPrice": 31.50,
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
@@ -330,7 +330,7 @@
         ],
         "sizeOptions": ["xs", "s", "m", "l", "xl"],
         "wishlist": true,
-        "tags": ["basin","all","sink"],
+        "tags": ["basin","all","sink","new"],
         "gallery": [
             {"image": "/products/tap1.jpg", "alt": "pdp description 1"},
             {"image": "/products/tap2.jpg", "alt": "pdp description 2"},
